@@ -1,0 +1,2 @@
+package com.arq.partnerclientjava.http;
+import java.security.cert.X509Certificate; import javax.net.ssl.X509TrustManager; public class InsecureTrustManager implements X509TrustManager { public void checkClientTrusted(X509Certificate[] c, String a) { } public void checkServerTrusted(X509Certificate[] c, String a) { } public X509Certificate[] getAcceptedIssuers() { return new X509Certificate[0]; } }
